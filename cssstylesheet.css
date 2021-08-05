@@ -6,7 +6,7 @@ body{
     padding: 0;
     margin: 0;
     font-family:"Roboto", sans-serif;
-    background-color: #F7FFF7;
+    background-color: white;
 
 }
 .container{
@@ -195,4 +195,79 @@ nav button:active{
     margin-bottom: 5px;
     color: white;
     text-align: center;
+}
+.article{
+    margin-top: 10%;
+    align-self:baseline;
+    text-align: left;
+    grid-column: 3/11;
+    grid-row: 3/-2;
+}
+.article h1{
+    padding-left: 1em;
+    font-size: 2.1em;
+}
+.arrows{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.article button{
+    background-color: rgb(54, 168, 54);
+    border: none;
+    color:white;
+    border-radius: 15%;
+    font-size: 1em;
+    padding: 15px;
+}
+.article button:hover{
+    background-color:rgb(45, 138, 45);
+}
+#NXT{
+    float: right;
+}
+.green_box{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-top: 1.5em;
+    padding-left: 2.5em;
+    padding-bottom: 2em;
+    font-size: 13px;
+    font-weight: normal;
+    background-color:lightgreen;
+}
+.green_box button{
+    border-radius: 10%;
+}
+.article hr{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.article h2{
+    padding-left: 2em;
+}
+.article p{
+    padding-left: 2.9em;
+}
+.gray_box{
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    margin-bottom: 5em
+}
+.programming_box{
+   padding: 5px;
+    background-color: white;
+    border-left: limegreen;
+    border-style: solid;
+    border-width:thick;
+    height:100%;
+    width: 100%;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
 }
