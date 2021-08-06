@@ -18,6 +18,7 @@ body{
     grid-template-rows: 70px 40px auto auto;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 header{
@@ -231,7 +232,7 @@ nav button:active{
     padding-top: 1.5em;
     padding-left: 2.5em;
     padding-bottom: 2em;
-    font-size: 13px;
+    font-size: 0.8em;
     font-weight: normal;
     background-color:lightgreen;
 }
@@ -270,4 +271,94 @@ nav button:active{
     border-right: none;
     border-top: none;
     border-bottom: none;
+}
+
+
+@media screen and (max-width:1025px){
+    #s{
+        display: none;
+    }
+    #sd{
+        display: none;
+    }
+    #sdf{
+        display: none;
+    }
+    #sdfg{
+        display: none;
+    }
+}
+@media screen and (max-width: 769px)
+{
+    .exe{
+        display: none;
+    }
+    .spac{
+        display: none;
+    }
+    #q{
+        display: none;
+    }
+    #qw{
+        display: none;
+    }
+    #qwe{
+        display: none;
+    }
+    #qwer{
+        display: none;
+    }
+    .container{
+        grid-template-rows: 70px 40px auto auto auto;
+
+    }
+    .ad-space{
+        grid-row: -3/-2;
+        grid-column:2/-1;
+        width: 50%;
+        align-self: center;
+        margin-left: 28%;
+    }
+    .article{
+        grid-column: 3/-1;
+        grid-row: 3/-3
+    }
+}
+@media screen and (max-width: 426px)
+{
+    .tut{
+        display: none;
+    }
+    .pai{
+        display: none;
+    }
+    #c{
+        display:none;
+    }
+    #j{
+        display:none;
+    }
+    #s{
+        display: none;
+    }
+    .ad-space{
+        grid-row: -3/-2;
+        grid-column:4/-4;
+        width: 50%;
+        align-self: center;
+        
+    }
+    .article{
+        grid-column: 1/-1;
+        grid-row: 3/4
+    }
+    .container{
+        grid-template-rows: 70px 40px auto auto auto auto;
+
+    }
+    .navi{
+        grid-column: 4/-4;
+        grid-row: 4/5;
+        width: 100%;
+    }
 }
